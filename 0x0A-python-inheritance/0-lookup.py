@@ -2,7 +2,7 @@
 """lookup module"""
 
 
-def lookup(obj):
+def lookup(list):
     """lookup method
     Returns: a list of available attributes and methods of an object"""
-    return dir(obj)
+    return dir(list)
